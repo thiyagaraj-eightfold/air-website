@@ -1,0 +1,96 @@
+.trial-signup-modal {
+    .close-button {
+        right: calc(var(--spacing) * 6);
+    }
+
+    .mktoForm {
+        width: 100% !important;
+
+        .mktoHtmlText {
+            width: 400px !important;
+        }
+
+        .mktoLabel {
+            float: none;
+            display: inline-block;
+            color: #1a1d3d;
+            font-size: var(--text-sm);
+            width: auto !important;
+        }
+
+        .mktoGutter {
+            display: none;
+        }
+
+        .mktoField:not([type="checkbox"]) {
+            float: none;
+            display: block;
+            width: 452px !important;
+            padding-inline: calc(var(--spacing) * 3);
+            height: calc(var(--spacing) * 10);
+            border: 2px var(--tw-border-style) var(--color-gray-200);
+            border-radius: var(--radius);
+            font-size: var(--text-sm);
+            line-height: var(--text-sm--line-height);
+        }
+
+        .mktoButtonRow {
+            display: block;
+        }
+
+        .mktoButtonWrap.mktoSimple .mktoButton {
+            --tw-gradient-position: to right in oklab;
+            --tw-gradient-from: #00f;
+            --tw-gradient-to: #a855f7;
+            --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+            background-image: linear-gradient(var(--tw-gradient-stops));
+            box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+            color: var(--color-white);
+            font-size: var(--text-sm);
+            font-weight: var(--font-weight-semibold);
+            line-height: var(--text-sm--line-height);
+            padding: calc(var(--spacing) * 2) calc(var(--spacing) * 6);
+            border-radius: var(--radius);
+            width: 100%;
+            display: block;
+            border-color: transparent;
+            background-color: var(--brand-agentic-purple);
+
+            &:hover {
+                border-color: transparent;
+            }
+
+            &:active {
+                background-image: linear-gradient(var(--tw-gradient-stops));
+                background-color: var(--brand-agentic-purple);
+            }
+
+            &:hover {
+                --tw-gradient-to: #9333ea;
+                --tw-gradient-from: #00d;
+            }
+        }
+
+        .mktoError {
+            .mktoErrorMsg {
+                --tw-gradient-position: to right in oklab;
+                --tw-gradient-from: #00f;
+                --tw-gradient-to: #a855f7;
+                --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+                background-image: linear-gradient(var(--tw-gradient-stops));
+                box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+                font-size: var(--text-sm);
+                line-height: var(--text-sm--line-height);
+                font-weight: var(--font-weight-semibold);
+                border: none;
+                text-shadow: none;
+                background-color: var(--brand-agentic-purple);
+            }
+
+            .mktoErrorArrow {
+                background-color: #00f;
+                border: none;
+            }
+        }
+    }
+}
