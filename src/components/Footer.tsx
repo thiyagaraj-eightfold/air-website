@@ -17,13 +17,13 @@ export function Footer() {
         <div className="flex items-center gap-8">
           <a
             href="#privacy"
-            className="text-sm text-gray-300 hover:text-white transition-colors duration-200"
+            className="text-sm text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer"
           >
             Privacy Policy
           </a>
           <a
             href="#terms"
-            className="text-sm text-gray-300 hover:text-white transition-colors duration-200"
+            className="text-sm text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer"
           >
             Terms of Service
           </a>

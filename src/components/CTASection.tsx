@@ -1,8 +1,12 @@
 import { motion } from "motion/react";
 import { Button } from "./ui/button";
 import { ArrowRight } from "lucide-react";
+import { useState } from "react";
+import { TrialSignupModal } from "./TrialSignupModal";
 
 export function CTASection() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <section id="contact" className="py-24 px-6 bg-white">
       <div className="max-w-4xl mx-auto text-center">
@@ -29,6 +33,7 @@ export function CTASection() {
             <Button
               size="lg"
               className="bg-gradient-to-r from-[#0000FF] to-[#A855F7] hover:from-[#0000DD] hover:to-[#9333EA] text-white px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group"
+              onClick={() => setIsModalOpen(true)}
             >
               Start Free Trial
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
@@ -53,6 +58,9 @@ export function CTASection() {
           </motion.p>
         </motion.div>
       </div>
+
+      {/* Trial Signup Modal */}
+      <TrialSignupModal open={isModalOpen} onOpenChange={setIsModalOpen} />
     </section>
   );
 }

@@ -19,24 +19,16 @@ const atsProviders = [
     logo: successFactorsLogo
   },
   { 
-    name: "Oracle Taleo",
-    logo: "https://images.unsplash.com/photo-1617091076336-03dc99aff1df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHNvZnR3YXJlJTIwaWNvbnxlbnwxfHx8fDE3NTk4Mjg1OTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
-  },
-  { 
     name: "iCIMS",
-    logo: "https://images.unsplash.com/photo-1669023414162-5bb06bbff0ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbnRlcnByaXNlJTIwc29mdHdhcmV8ZW58MXx8fHwxNzU5ODAxNjgxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi1Ol9WEaFJpu-gDUgsQXYw5MVXdl65-fPeg&s"
   },
   { 
     name: "Greenhouse",
-    logo: "https://images.unsplash.com/photo-1562705121-e624542c7b9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjB0ZWNobm9sb2d5fGVufDF8fHx8MTc1OTczODU1MHww&ixlib=rb-4.1.0&q=80&w=1080"
-  },
-  { 
-    name: "Lever",
-    logo: "https://images.unsplash.com/photo-1746021375246-7dc8ab0583f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzU5NzczMzAyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb7ToqyV1niJX9H7HwrWzQLPHMaQUyppdgxQ&s"
   },
   { 
     name: "SmartRecruiters",
-    logo: "https://images.unsplash.com/photo-1488229297570-58520851e868?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwcGxhdGZvcm18ZW58MXx8fHwxNzU5ODI4NTk4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    logo: "https://raw.githubusercontent.com/konfig-sdks/openapi-examples/HEAD/smartrecruiters/logo.png"
   },
 ];
 
@@ -79,7 +71,7 @@ export function ATSIntegrationSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="bg-white rounded-3xl p-12 shadow-lg border border-gray-100 mb-12"
         >
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 justify-items-center">
             {atsProviders.map((provider, index) => (
               <motion.div
                 key={provider.name}

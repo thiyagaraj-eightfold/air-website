@@ -99,7 +99,7 @@ export function ScreenshotsSection() {
             <button
               key={index}
               onClick={() => setActiveIndex(index)}
-              className={`group relative rounded-xl overflow-hidden transition-all duration-300 ${
+              className={`group relative rounded-xl overflow-hidden transition-all duration-300 cursor-pointer ${
                 activeIndex === index
                   ? "ring-4 ring-blue-500 shadow-lg scale-105"
                   : "ring-2 ring-gray-200 hover:ring-gray-300 hover:scale-102"

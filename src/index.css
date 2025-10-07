@@ -2429,3 +2429,20 @@ html {
   inherits: false;
   initial-value: 1;
 }
+
+.trial-signup-modal {
+  z-index: 999999999 !important;
+  max-width: 500px !important;
+  position: relative !important;
+  isolation: isolate !important;
+}
+
+/* Ensure modal portal container has highest z-index */
+.modal-portal-container {
+  z-index: 999999999 !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
