@@ -19,7 +19,7 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="/" className="flex items-center cursor-pointer">
+            <a href="https://eightfold.ai/" className="flex items-center cursor-pointer">
               <img 
                 src={eightfoldLogo} 
                 alt="Eightfold.ai" 
