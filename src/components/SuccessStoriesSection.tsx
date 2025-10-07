@@ -5,10 +5,10 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 const stories = [
   {
     quote:
-      "The AI Interviewer transformed our high-volume hiring. We're now conducting thousands of initial interviews simultaneously, and our time-to-hire dropped by 65%.",
-    author: 'Sarah Mitchell',
-    role: 'VP of Talent Acquisition',
-    company: 'TechCorp Global',
+      "With AI Interviewer, we realized we can concentrate on creating more strategic value, while we progress recruiting to staff critical tech initiatives; basically in our sleep",
+    author: 'Nicole Brungo',
+    role: 'Global Talent Acquisition',
+    company: 'Eightfold',
     avatar:
       'https://images.unsplash.com/photo-1655249481446-25d575f1c054?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHdvbWFufGVufDF8fHx8MTc1OTc0NTg2M3ww&ixlib=rb-4.1.0&q=80&w=1080',
     metrics: [
@@ -18,10 +18,10 @@ const stories = [
   },
   {
     quote:
-      "What impressed us most was the fairness. Every candidate gets the same structured evaluation, and we've seen a 40% increase in diverse hires since implementation.",
-    author: 'Michael Chen',
-    role: 'Chief People Officer',
-    company: 'FinanceFirst Inc',
+      "We were impressed by Eightfold AI Recruiter's sophisticated understanding of both job requirements and candidate profiles, enabling truly personalized interview questions while allowing human recruiters to add contextual insights",
+    author: 'HR Tech Panel',
+    role: '',
+    company: 'HR Executive.com',
     avatar:
       'https://images.unsplash.com/photo-1719257751404-1dea075324bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMG1hbnxlbnwxfHx8fDE3NTk3NjExNzF8MA&ixlib=rb-4.1.0&q=80&w=1080',
     metrics: [
@@ -32,9 +32,9 @@ const stories = [
   {
     quote:
       'Our recruiters love it. They spend less time scheduling and more time building relationships. The AI Interview Score helps us identify top talent faster than ever.',
-    author: 'Jennifer Rodriguez',
-    role: 'Director of Recruiting',
-    company: 'HealthTech Solutions',
+    author: 'Niran Kundapur',
+    role: 'Head of Product',
+    company: 'Wisdom Labs',
     avatar:
       'https://images.unsplash.com/photo-1543132220-7bc04a0e790a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGV4ZWN1dGl2ZSUyMHBvcnRyYWl0fGVufDF8fHx8MTc1OTcyMzMyOHww&ixlib=rb-4.1.0&q=80&w=1080',
     metrics: [
@@ -90,10 +90,10 @@ export function SuccessStoriesSection() {
                 <blockquote className="text-base text-gray-700 leading-relaxed mb-8 italic">"{story.quote}"</blockquote>
 
                 {/* Author info */}
-                <div className="flex items-center gap-4 mb-6 pb-6 border-b border-gray-100">
-                  <div className="w-14 h-14 rounded-full overflow-hidden ring-2 ring-[#6FD9CB]/20">
+                <div className="flex items-center gap-4 ">
+                  {/* <div className="w-14 h-14 rounded-full overflow-hidden ring-2 ring-[#6FD9CB]/20">
                     <ImageWithFallback src={story.avatar} alt={story.author} className="w-full h-full object-cover" />
-                  </div>
+                  </div> */}
                   <div>
                     <div className="text-[#1A1D3D] font-semibold">{story.author}</div>
                     <div className="text-sm text-gray-600">{story.role}</div>
@@ -102,7 +102,7 @@ export function SuccessStoriesSection() {
                 </div>
 
                 {/* Metrics */}
-                <div className="grid grid-cols-2 gap-4">
+                {/* <div className="grid grid-cols-2 gap-4">
                   {story.metrics.map((metric, idx) => (
                     <div
                       key={idx}
@@ -117,7 +117,7 @@ export function SuccessStoriesSection() {
                       </div>
                     </div>
                   ))}
-                </div>
+                </div> */}
 
                 {/* Gradient overlay on hover */}
                 <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#6FD9CB]/0 via-transparent to-[#A855F7]/0 group-hover:from-[#6FD9CB]/5 group-hover:to-[#A855F7]/5 transition-all duration-300 pointer-events-none" />
