@@ -4,13 +4,13 @@ import { Shield, Zap, Heart } from "lucide-react";
 const values = [
   {
     icon: Shield,
-    heading: "Built for equity",
-    benefit: "Voice-based skills evaluation. No facial analysis, no tone judgment. Just fair, bias-audited conversations in 22+ languages.",
+    heading: "Fair and inclusive",
+    benefit: "Evaluates skills, experience, and potential — not appearance or emotion.",
   },
   {
     icon: Zap,
     heading: "Instant at scale",
-    benefit: "Voice interviews begin the moment someone applies. Thousands of simultaneous conversations, across time zones, with structured insights ready in hours.",
+    benefit: "AI interviews begin the moment someone applies. Thousands of simultaneous conversations, across time zones, with structured insights ready in hours.",
   },
   {
     icon: Heart,
@@ -31,10 +31,11 @@ export function ValueBlocks() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl tracking-tight text-[#1A1D3D] mb-6">
-            Hiring that works for everyone
+          Meet the AI Interviewer.
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-            Trusted by 100+ organizations in 155 countries
+          Eightfold’s AI Interviewer conducts structured, bias-audited interviews automatically after application. Candidates can interview in their own language, on their own time, while recruiters receive consistent, explainable insights in hours — not weeks.
+          Unlike legacy video-analysis tools, it evaluates only what candidates say, never how they look or sound.
           </p>
         </motion.div>
 

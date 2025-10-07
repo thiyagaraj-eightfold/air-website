@@ -395,7 +395,7 @@ export function Hero() {
             >
               <Sparkles className="w-4 h-4 text-[#A855F7]" />
               <span className="text-sm font-semibold" style={{ color: '#1A1D3D' }}>
-                AI Voice Interviewer • Top HR Product of 2025
+                Winner: 2025 Top HR Product of the Year.
               </span>
             </motion.div>
 
@@ -405,8 +405,8 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-5xl md:text-6xl lg:text-7xl tracking-tight mb-6 text-[#1A1D3D] leading-[1.1] font-semibold"
             >
-              Fair hiring starts with{' '}
-              <span className="bg-gradient-to-r from-[#0000FF] to-[#A855F7] bg-clip-text text-transparent">voice-powered interviews</span>
+               Hire with{' '}
+              <span className="bg-gradient-to-r from-[#0000FF] to-[#A855F7] bg-clip-text text-transparent">Confidence and Conscience.</span>
             </motion.h1>
 
             <motion.p
@@ -415,8 +415,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed max-w-xl"
             >
-              Every candidate speaks directly to our AI interviewer. Real conversations. Natural voice. No waiting. No bias. Just
-              opportunity—at scale, in 22+ languages, starting the moment they apply.
+              Eightfold’s AI Interviewer helps every capable candidate be seen for what they can do — delivering faster, fairer, more equitable hiring powered by trusted enterprise AI.
             </motion.p>
 
             <motion.div
@@ -433,14 +432,14 @@ export function Hero() {
                 Start Free Trial
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-              <Button
+              {/* <Button
                 size="lg"
                 variant="outline"
                 className="border-2 border-[#A855F7] hover:border-[#8B5CF6] px-8 py-6 text-base rounded-xl text-[#1A1D3D] hover:bg-purple-50"
               >
                 <Play className="mr-2 w-5 h-5" />
                 Watch demo
-              </Button>
+              </Button> */}
             </motion.div>
 
             {/* Stats */}

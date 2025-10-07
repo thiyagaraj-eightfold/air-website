@@ -11,7 +11,7 @@ const steps = [
   },
   {
     number: "2",
-    title: "Voice conversation",
+    title: "Conversational interview",
     description: "Candidates speak naturally with AI. Role-specific questions, real-time responses, just like a human interviewer.",
     icon: MessageSquare,
     gradient: "from-[#0000FF] to-[#A855F7]",

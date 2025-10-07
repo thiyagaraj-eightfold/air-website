@@ -17,7 +17,7 @@ export function CTASection() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-5xl md:text-6xl lg:text-7xl tracking-tight text-[#1A1D3D] mb-8">
-            Ready to hire fairly?
+          Start Hiring Fairly — and Faster.
           </h2>
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
             See how AI voice interviewing creates opportunity for candidates and confidence for teams.
