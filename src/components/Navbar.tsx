@@ -39,12 +39,12 @@ export function Navbar() {
 
           {/* Right side - Sign In and CTA */}
           <div className="flex items-center gap-4">
-            <a
+            {/* <a
               href="#signin"
               className="text-sm text-[#1A1D3D] hover:text-[#A855F7] transition-colors duration-200"
             >
               Sign In
-            </a>
+            </a> */}
             <Button
               size="sm"
               className="bg-gradient-to-r from-[#0000FF] to-[#A855F7] hover:from-[#0000DD] hover:to-[#9333EA] text-white px-6 rounded-full shadow-md hover:shadow-lg transition-all duration-300"
