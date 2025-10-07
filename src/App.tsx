@@ -1,5 +1,6 @@
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
+import { InterviewTimelineSection } from "./components/InterviewTimelineSection";
 import { ValueBlocks } from "./components/ValueBlocks";
 import { HowItWorksSection } from "./components/HowItWorksSection";
 import { SuccessStoriesSection } from "./components/SuccessStoriesSection";
@@ -12,6 +13,7 @@ export default function App() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
+      <InterviewTimelineSection />
       <ValueBlocks />
       <HowItWorksSection />
       <SuccessStoriesSection />

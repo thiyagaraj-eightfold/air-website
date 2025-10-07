@@ -406,7 +406,7 @@ export function Hero() {
               className="text-5xl md:text-6xl lg:text-7xl tracking-tight mb-6 text-[#1A1D3D] leading-[1.1] font-semibold"
             >
                Hire with{' '}
-              <span className="bg-gradient-to-r from-[#0000FF] to-[#A855F7] bg-clip-text text-transparent">Confidence and Conscience.</span>
+              <span className="bg-gradient-to-r from-[#0000FF] to-[#A855F7] bg-clip-text text-transparent">Confidence and Fairness.</span>
             </motion.h1>
 
             <motion.p
@@ -415,7 +415,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed max-w-xl"
             >
-              Eightfold’s AI Interviewer helps every capable candidate be seen for what they can do — delivering faster, fairer, more equitable hiring powered by trusted enterprise AI.
+              Eightfold’s AI Interviewer helps every candidate be seen for what they can do — delivering faster, fairer, more equitable hiring powered by trusted enterprise AI.
             </motion.p>
 
             <motion.div

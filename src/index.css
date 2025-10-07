@@ -2447,6 +2447,57 @@ html {
   bottom: 0 !important;
 }
 
+/* Interview Timeline Section Custom Styles */
+.interview-timeline-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.interview-timeline-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.interview-timeline-header {
+  /* margin-bottom: 1rem; */
+}
+
+.interview-timeline-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem; /* 4px gap between boxes */
+}
+
+.interview-timeline-box {
+  background-color: white;
+  border-radius: 0.75rem;
+  padding: 0.375rem; /* 6px padding inside box */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.interview-timeline-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex-shrink: 0;
+}
+
+.interview-timeline-icon--red {
+  color: #ef4444;
+}
+
+.interview-timeline-icon--green {
+  color: #22c55e;
+}
+
+.interview-timeline-text {
+  color: #374151;
+}
+
 button {
   cursor: pointer !important;
 }
