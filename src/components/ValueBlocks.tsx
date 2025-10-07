@@ -33,7 +33,7 @@ export function ValueBlocks() {
           <h2 className="text-4xl md:text-5xl lg:text-6xl tracking-tight text-[#1A1D3D] mb-6">
           Meet the AI Interviewer.
           </h2>
-          <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 max-w-5xl mx-auto">
           Eightfold’s AI Interviewer conducts structured, bias-audited interviews automatically after application. Candidates can interview in their own language, on their own time, while recruiters receive consistent, explainable insights in hours — not weeks.
           Unlike legacy video-analysis tools, it evaluates only what candidates say, never how they look or sound.
           </p>
