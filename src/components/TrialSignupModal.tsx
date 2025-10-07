@@ -37,7 +37,7 @@ const submitTrialSignup = async (data: TrialSignupFormData): Promise<{ success: 
   // Simulate success response
   return {
     success: true,
-    message: "Thank you! Your free trial has been activated. Check your email for next steps."
+    message: "We will be in touch shortly."
   };
 };
 
@@ -256,7 +256,7 @@ export function TrialSignupModal({ open, onOpenChange }: TrialSignupModalProps) 
               <CheckCircle className="w-10 h-10 text-green-600" />
             </motion.div>
             <h3 className="text-xl font-bold text-[#1A1D3D] mb-3">
-              Trial Activated!
+              Request sent!
             </h3>
             <p className="text-gray-600 mb-6 text-sm leading-relaxed">
               {successMessage}
@@ -265,7 +265,7 @@ export function TrialSignupModal({ open, onOpenChange }: TrialSignupModalProps) 
               onClick={handleClose}
               className="h-10 px-6 bg-gradient-to-r from-[#0000FF] to-[#A855F7] hover:from-[#0000DD] hover:to-[#9333EA] text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all"
             >
-              Get Started
+              Done
             </Button>
           </motion.div>
         )}
