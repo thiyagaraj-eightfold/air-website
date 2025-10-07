@@ -88,9 +88,9 @@ export function TrialSignupModal({ open, onOpenChange }: TrialSignupModalProps) 
       exit={{ opacity: 0 }}
       transition={{ duration: 0.2 }}
     >
-      {/* Overlay with blue effect */}
+      {/* Overlay */}
       <motion.div 
-        className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-purple-900/20 to-blue-900/20 backdrop-blur-md" 
+        className="bg-overlay" 
         onClick={handleClose}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

@@ -2446,3 +2446,12 @@ html {
   right: 0 !important;
   bottom: 0 !important;
 }
+
+button {
+  cursor: pointer !important;
+}
+
+.bg-overlay {
+  position: absolute;
+  opacity: 1; background-color: #0000004a; top: 0; left: 0; right: 0; bottom: 0;
+}
