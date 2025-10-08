@@ -42,6 +42,7 @@ export function CTASection() {
               size="lg"
               variant="outline"
               className="border-2 border-[#A855F7] hover:border-[#8B5CF6] px-8 py-6 text-lg rounded-xl transition-all duration-300 text-[#1A1D3D] hover:bg-purple-50"
+              onClick={() => window.open("https://eightfold.ai/blog/eightfold-ai-interviewer/", "_self")}
             >
               Read the story
             </Button>

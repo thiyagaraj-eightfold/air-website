@@ -16,13 +16,13 @@ export function Footer() {
         {/* Links and Copyright */}
         <div className="flex items-center gap-8">
           <a
-            href="#privacy"
+            href="https://eightfold.ai/privacy-policy/"
             className="text-sm text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer"
           >
             Privacy Policy
           </a>
           <a
-            href="#terms"
+            href="https://eightfold.ai/security/"
             className="text-sm text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer"
           >
             Terms of Service
